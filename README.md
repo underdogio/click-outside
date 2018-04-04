@@ -9,9 +9,12 @@ import clickOutside from '@underdogio/click-outside'
 
 const el = document.getElementById('el')
 
-clickOutside(el, event => {
+const unlisten = clickOutside(el, event => {
   console.log('Someone clicked outside of el!')
 })
+
+// Remove event listener
+unlisten()
 ```
 
 ## Installation
