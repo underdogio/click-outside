@@ -5,7 +5,6 @@ module.exports = function onClickOutside (element, fn) {
     return
   }
 
-  // Invokes callback if user clicks outside the target element
   function listener (event) {
     var target = event.target
 
