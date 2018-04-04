@@ -1,0 +1,12 @@
+{
+  "name": "@underdogio/click-outside",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Listen for clicks that happen outside of a DOM element.",
+  "main": "index.js",
+  "author": "Mario Pabon <me@mariopabon.com> (https://mariopabon.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/underdogio/click-outside"
+  }
+}
